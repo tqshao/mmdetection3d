@@ -59,8 +59,7 @@ class NuScenesDataset(Det3DDataset):
         'classes':
         ('car', 'truck', 'trailer', 'bus', 'construction_vehicle', 'bicycle',
          'motorcycle', 'pedestrian', 'traffic_cone', 'barrier'),
-        'version':
-        'v1.0-trainval',
+        #'version': 'v1.0-trainval',
         'palette': [
             (255, 158, 0),  # Orange
             (255, 99, 71),  # Tomato
